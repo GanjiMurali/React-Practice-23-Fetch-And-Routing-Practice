@@ -39,7 +39,7 @@ class BlogItemDetails extends Component {
 
     return (
       <div className="blog-info">
-        <h2 className="blog-details-title">{title}</h2>
+        <h1 className="blog-details-title">{title}</h1>
         <div className="author-details">
           <img className="author-pic" src={avatarUrl} alt={author} />
           <p className="details-author-name">{author}</p>
